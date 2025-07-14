@@ -9,7 +9,7 @@ from sklearn.metrics import r2_score, mean_squared_error
 st.title("📈 Stock Price Prediction App")
 
 # Load your CSV from your path
-data = pd.read_csv("C:\\Users\\LENOVO\\Desktop\\Machine Learning\\StockData.csv")
+data = pd.read_csv("StockData.csv")
 df = pd.DataFrame(data)
 
 st.subheader("Raw Data")
